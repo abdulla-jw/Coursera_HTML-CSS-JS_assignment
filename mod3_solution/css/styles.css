@@ -1,0 +1,56 @@
+#navbar{
+    background-color: aqua;
+}
+h1{
+    color: black ;
+    margin-top: 0%;
+} 
+h2{
+    color: black;
+    margin-top: 3%;
+}
+#text-back{
+    box-shadow: cadetblue;
+    background-color: darkcyan;
+    margin-top: 5%;
+    padding-bottom: 5%;
+
+}
+#text-back > h3
+{
+    padding-top: 5%;
+    color: darkmagenta;
+    margin-bottom: 2%;
+}
+p{
+    text-align: center;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media(min-width : 765px) {
+    .xs
+    {
+        float :left;
+        visibility: hidden;
+
+    }
+}
+.xs div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px;
+    
+}
+#list-button{
+    padding: 3px;
+}
+
+.navbar-brand{
+    height: 60px !important;
+}
+.navbar-toggle{
+    background-color: whitesmoke;
+    margin-top: 18px;
+}
