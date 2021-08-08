@@ -4,6 +4,7 @@
 h1{
     color: black ;
     margin-top: 0%;
+    float: left;
 } 
 h2{
     color: black;
@@ -28,21 +29,6 @@ p{
     padding-left: 5%;
     padding-right: 5%;
 }
-@media(min-width : 765px) {
-    .xs
-    {
-        float :left;
-        visibility: hidden;
-
-    }
-}
-.xs div{
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 4px;
-    
-}
 #list-button{
     padding: 3px;
 }
@@ -53,4 +39,7 @@ p{
 .navbar-toggle{
     background-color: whitesmoke;
     margin-top: 18px;
+}
+#icon-bar{
+    background-color: black;
 }
